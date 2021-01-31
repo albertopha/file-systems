@@ -1,0 +1,71 @@
+{
+    "type": "folder",
+    "name": "root",
+    "folders": [{
+      "type": "folder",
+      "name": "folder1",
+      "folders": [{
+        "type": "folder",
+        "name": "folder2",
+        "folders": [],
+        "files": []
+      }, {
+        "type": "folder",
+        "name": "folder3",
+        "folders": [{
+          "type": "folder",
+          "name": "folder4",
+          "folders": [],
+          "files": []
+        }, {
+          "type": "folder",
+          "name": "folder5",
+          "folders": [],
+          "files": []
+        }, {
+          "type": "folder",
+          "name": "folder6",
+          "folders": [],
+          "files": []
+        }, {
+          "type": "folder",
+          "name": "folder7",
+          "folders": [{
+            "type": "folder",
+            "name": "folder8"
+          }],
+          "files": []
+        }],
+        "files": [{
+          "type": "file",
+          "name": "file3"
+        }, {
+          "type": "file",
+          "name": "file4"
+        }, {
+          "type": "file",
+          "name": "file5"
+        }, {
+          "type": "file",
+          "name": "file6"
+        }]
+      }],
+      "files": [{
+        "type": "file",
+        "name": "file2"
+      }]
+    }],
+    "files": [{
+      "type": "file",
+      "name": "file1"
+    }, {
+      "type": "file",
+      "name": "file7"
+    }, {
+      "type": "file",
+      "name": "file8"
+    }, {
+      "type": "file",
+      "name": "file9"
+    }]
+}
