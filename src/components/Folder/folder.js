@@ -55,14 +55,12 @@ export default function Folder({ name, type, level }) {
   };
 
   const getChildren = () => {
-    console.log('folders == ', typeof folders);
     if (folders.length === 0 && files.length === 0) {
       return [];
     }
     
     const childFolders = getChildFolders();
     const childFiles = getChildFiles();
-    console.log("**** ", childFiles);
     return [...childFolders, ...childFiles];
   };
 
