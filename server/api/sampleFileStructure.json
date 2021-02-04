@@ -54,6 +54,11 @@
         "type": "file",
         "name": "file2"
       }]
+    }, {
+      "type": "folder",
+      "name": "folder0",
+      "folders": [],
+      "files": []
     }],
     "files": [{
       "type": "file",

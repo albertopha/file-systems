@@ -1,7 +1,11 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/main',
+  mode: 'development',
+  entry: [
+    '@babel/polyfill', // enables async-await
+    './src/main.js'
+  ],
   output: {
     path: __dirname,
     filename: './public/bundle.js'
@@ -14,10 +18,7 @@ module.exports = {
         include: [
           path.resolve(__dirname, 'src')
         ],
-        loader: 'babel-loader',
-        options: {
-          presets: ['react', 'es2015', 'stage-2']
-        }
+        loader: 'babel-loader'
       },
       {
         test: /\.scss$/,
