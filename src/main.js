@@ -1,10 +1,11 @@
-import './global.scss';
+import './global.module.scss';
+import regeneratorRuntime from "regenerator-runtime";
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from './components';
+import Root from './components/Root/root';
 
 ReactDOM.render(
-  <App />,
+  <Root />,
   document.getElementById('app')
 );
 
